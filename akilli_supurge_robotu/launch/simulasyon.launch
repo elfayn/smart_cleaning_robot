@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- TurtleBot3 modeli -->
+  <env name="TURTLEBOT3_MODEL" value="burger"/>
+
+  <!-- Gazebo + TurtleBot3 House ortamı -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"/>
+
+</launch>
+

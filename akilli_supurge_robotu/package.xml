@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>akilli_supurge_robotu</name>
+  <version>0.0.1</version>
+  <description>
+    ROS tabanlı akıllı süpürge robotu – oda bazlı temizlik ve QR doğrulama
+  </description>
+
+  <maintainer email="elif@ktun.edu.tr">Elif</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build / exec dependencies -->
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>move_base_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>actionlib</depend>
+  <depend>cv_bridge</depend>
+
+  <!-- Optional: repo / website -->
+  <!-- <url type="website">http://wiki.ros.org/akilli_supurge_robotu</url> -->
+
+</package>
+

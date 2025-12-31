@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+
+  <world name="ev_qr_world">
+
+    <!-- Fizik ayarları -->
+    <physics type="ode">
+      <real_time_update_rate>1000</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+    </physics>
+
+    <!-- Güneş -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Zemin -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- TurtleBot3 House -->
+    <include>
+      <uri>model://turtlebot3_house</uri>
+    </include>
+
+    <!-- ===================== -->
+    <!-- QR MODELLERİ -->
+    <!-- ===================== -->
+
+    <!-- Salon QR -->
+    <include>
+      <uri>model://qr_salon</uri>
+      <pose>1.5 0.0 1.2 0 0 0</pose>
+    </include>
+
+    <!-- Mutfak QR -->
+    <include>
+      <uri>model://qr_mutfak</uri>
+      <pose>-1.5 0.5 1.2 0 0 1.57</pose>
+    </include>
+
+    <!-- Yatak Odası QR -->
+    <include>
+      <uri>model://qr_yatak_odasi</uri>
+      <pose>0.0 -2.0 1.2 0 0 3.14</pose>
+    </include>
+
+    <!-- Koridor QR -->
+    <include>
+      <uri>model://qr_koridor</uri>
+      <pose>0.0 1.5 1.2 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>
+

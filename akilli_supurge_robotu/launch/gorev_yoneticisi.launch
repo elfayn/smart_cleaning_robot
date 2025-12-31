@@ -1,0 +1,17 @@
+<launch>
+
+  <param name="mission_file"
+         value="$(find akilli_supurge_robotu)/config/gorev.yaml"/>
+
+  <node pkg="akilli_supurge_robotu"
+        type="qr_okuyucu.py"
+        name="qr_okuyucu"
+        output="screen"/>
+
+  <node pkg="akilli_supurge_robotu"
+        type="gorev_yoneticisi.py"
+        name="gorev_yoneticisi"
+        output="screen"/>
+
+</launch>
+

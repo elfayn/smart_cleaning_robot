@@ -1,0 +1,19 @@
+cat <<EOF > qr_koridor/model.sdf
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="qr_koridor">
+    <static>true</static>
+    <link name="qr_link">
+      <visual name="qr_visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>0.4 0.4</size>
+          </plane>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
+EOF
+

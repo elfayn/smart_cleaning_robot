@@ -12,7 +12,7 @@ Robot:
 - SLAM ile harita çıkarır ve kaydeder
 - Harita üzerinde AMCL ile lokalize olur
 - Oda girişlerine gider
-- QR ları okunmadan geçer 
+- QR ları okuyarak odaları gezer ve temizler
 
 
 ## Kullanılan Teknolojiler
